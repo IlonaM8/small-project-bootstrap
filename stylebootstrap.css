@@ -6,18 +6,6 @@ body{
 }
 
 
-@media only screen and (max-width:768px){
-
- #img1{
-    display: none;
- }
-
- 
-
- 
-
-}
-
 
 
 
@@ -83,16 +71,16 @@ body{
 .text {
     background-color: rgba(255, 255, 255, 0.226) ;
     font-family: "Poppins";
-    color:#051e68;
+    color:#121213;
     font-size: 3em;
     line-height: 1em;
     
 }
 
 .subheading-1{
-    color:#051e68;
+    color:rgb(76, 130, 230);
     text-transform: uppercase;
-    font-size: 0.5em;
+    font-size: 0.4em;
     display: block;
     letter-spacing: 3px;
 }
@@ -104,23 +92,23 @@ body{
 
 .subtheader2{
   font-size: 24px;
-  font-weight: 200;
-  color:#2d2e31;
+  font-weight: 500;
+  color:#121213;
   
 }
 
 /* button animation*/
-button {
+.btnA button {
     background: none;
     color: #0075f6;
     border: 2px solid;
-    padding: 8px 26px;
+    padding: 8px 22px;
     font-size: 16px;
    transition: all 0.25s;
 
 }
 
-button:hover{
+.btnA button:hover{
 
 border-color: #f1ff5c;
 color:orange;
@@ -136,7 +124,6 @@ cursor: pointer;
     height: 600px;
     background-image: url("https://images.unsplash.com/photo-1503924087716-07cbd5f49b21?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80");
     background-size: cover;
-   
 }
 
 
@@ -161,3 +148,68 @@ cursor: pointer;
     font-size: 4em;
     
 }
+
+.icons3{
+    color:rgb(134, 236, 134);
+    font-size: 4em;
+
+}
+
+#whitebg {
+    background: rgba(255, 255, 255, 0.952);
+    margin: 20px;
+}
+
+#greybg{
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+    background: #F8F9FA;
+
+}
+
+#bluHireme{
+    background: #0075f6;
+    padding: 6em;
+    margin:0;
+    color: #fff;
+    text-align: center;
+}
+
+#bluButton{
+    padding: 2em;
+}
+
+#textT{
+    font-weight: bolder;
+    
+
+
+
+
+
+/* mobile*/
+
+@media only screen and (max-width:768px){
+
+    #img1{
+       display: none;
+    }
+   
+   
+    .subtheader2{
+      font-size: 18px;
+       
+     }
+   
+     .btnA button{
+        padding: 6px 8px;
+        font-size: 16px;
+     }
+    
+   
+    
+   
+   }
+   
