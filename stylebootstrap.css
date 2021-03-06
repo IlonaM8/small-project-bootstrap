@@ -181,9 +181,13 @@ cursor: pointer;
     padding: 2em;
 }
 
-#textT{
-    font-weight: bolder;
-    
+span {
+    font-weight: 800;   
+}
+
+.col h2{
+    font-weight: 300;
+}
 
 
 
