@@ -5,6 +5,11 @@ body{
     font-family: "Poppins", Arial, Helvetica, sans-serif;  
 }
 
+p{
+    color: #999999;
+    font-size: 16px;
+    padding: 20px;
+}
 
 
 
@@ -160,7 +165,7 @@ cursor: pointer;
     margin: 20px;
 }
 
-#greybg{
+#greybg, #blogText{
     padding: 20px;
     margin-top: 60px;
     margin-bottom: 60px;
@@ -189,7 +194,23 @@ span {
     font-weight: 300;
 }
 
+#projectG, #blogText, #contactF{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
 
+#footerBlu{
+    background: #0075f6;
+    color: #fff;
+    border-radius: 1px;
+    text-align: center;
+    padding: 6em;
+}
+
+#footerBlu p{
+    color: #fff;
+}
 
 
 
