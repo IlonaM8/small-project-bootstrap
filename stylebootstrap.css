@@ -234,7 +234,9 @@ span {
      }
     
    
-    
+    #makeSmall{
+        width: 260px;
+    }
    
    }
    
